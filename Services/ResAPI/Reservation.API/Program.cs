@@ -1,3 +1,5 @@
+using Reservation.API.Services;
+
 namespace Reservation.API
 {
     public class Program
@@ -5,8 +7,7 @@ namespace Reservation.API
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
-
-            // Add services to the container.
+            builder.Services.AddScoped<IReservationService, ReservationService>();
 
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

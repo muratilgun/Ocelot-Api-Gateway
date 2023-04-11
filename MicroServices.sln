@@ -3,23 +3,29 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33513.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIGateway", "APIGateway\APIGateway.csproj", "{F9B43434-9DA5-468E-85EA-67B9233A114A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APIGateway", "APIGateway\APIGateway.csproj", "{F9B43434-9DA5-468E-85EA-67B9233A114A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{4E814BAA-7D67-4CD8-A9B9-744634759D13}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contact.API", "Services\ContactAPI\Contact.API\Contact.API.csproj", "{E2FF830F-8707-4796-AE39-70F37E5E3443}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contact.API", "Services\ContactAPI\Contact.API\Contact.API.csproj", "{E2FF830F-8707-4796-AE39-70F37E5E3443}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ContactAPI", "ContactAPI", "{CE347264-34F6-4B99-8AEA-321A0728EA5B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ReservationAPI", "ReservationAPI", "{F927C6E1-E9C9-4DAB-9BAC-E47884ADD182}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reservation.API", "Services\ResAPI\Reservation.API\Reservation.API.csproj", "{4ECB5A0C-9DF1-47D4-8706-27ACDA17194F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reservation.API", "Services\ResAPI\Reservation.API\Reservation.API.csproj", "{4ECB5A0C-9DF1-47D4-8706-27ACDA17194F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contact.API.Infrastructure", "Services\ContactAPI\Contact.API.Infrastructure\Contact.API.Infrastructure.csproj", "{2DDBF374-888E-4978-83CC-DB99A4F33C80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contact.API.Infrastructure", "Services\ContactAPI\Contact.API.Infrastructure\Contact.API.Infrastructure.csproj", "{2DDBF374-888E-4978-83CC-DB99A4F33C80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contact.API.Models", "Services\ContactAPI\Contact.API.Models\Contact.API.Models.csproj", "{47B20C0D-6FE0-4458-8007-45B1DA2F9701}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contact.API.Models", "Services\ContactAPI\Contact.API.Models\Contact.API.Models.csproj", "{47B20C0D-6FE0-4458-8007-45B1DA2F9701}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contact.API.Services", "Services\ContactAPI\Contact.API.Services\Contact.API.Services.csproj", "{82F0CF23-15A2-4237-9928-647750106F8A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contact.API.Services", "Services\ContactAPI\Contact.API.Services\Contact.API.Services.csproj", "{82F0CF23-15A2-4237-9928-647750106F8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reservation.API.Infrastructure", "Services\ResAPI\Reservation.API.Infrastructure\Reservation.API.Infrastructure.csproj", "{82D3DF16-D1BF-4B89-8412-3493CA42C627}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reservation.API.Services", "Services\ResAPI\Reservation.API.Services\Reservation.API.Services.csproj", "{C7D8FA50-B617-49D9-BB23-3FC0A73007B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reservation.API.Models", "Services\ResAPI\Reservation.API.Models\Reservation.API.Models.csproj", "{C7FD8036-08AD-4220-9ACC-FAAA1BBDCB8F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +57,18 @@ Global
 		{82F0CF23-15A2-4237-9928-647750106F8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82F0CF23-15A2-4237-9928-647750106F8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82F0CF23-15A2-4237-9928-647750106F8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82D3DF16-D1BF-4B89-8412-3493CA42C627}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82D3DF16-D1BF-4B89-8412-3493CA42C627}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82D3DF16-D1BF-4B89-8412-3493CA42C627}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82D3DF16-D1BF-4B89-8412-3493CA42C627}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7D8FA50-B617-49D9-BB23-3FC0A73007B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7D8FA50-B617-49D9-BB23-3FC0A73007B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7D8FA50-B617-49D9-BB23-3FC0A73007B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7D8FA50-B617-49D9-BB23-3FC0A73007B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7FD8036-08AD-4220-9ACC-FAAA1BBDCB8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7FD8036-08AD-4220-9ACC-FAAA1BBDCB8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7FD8036-08AD-4220-9ACC-FAAA1BBDCB8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7FD8036-08AD-4220-9ACC-FAAA1BBDCB8F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -63,6 +81,9 @@ Global
 		{2DDBF374-888E-4978-83CC-DB99A4F33C80} = {CE347264-34F6-4B99-8AEA-321A0728EA5B}
 		{47B20C0D-6FE0-4458-8007-45B1DA2F9701} = {CE347264-34F6-4B99-8AEA-321A0728EA5B}
 		{82F0CF23-15A2-4237-9928-647750106F8A} = {CE347264-34F6-4B99-8AEA-321A0728EA5B}
+		{82D3DF16-D1BF-4B89-8412-3493CA42C627} = {F927C6E1-E9C9-4DAB-9BAC-E47884ADD182}
+		{C7D8FA50-B617-49D9-BB23-3FC0A73007B0} = {F927C6E1-E9C9-4DAB-9BAC-E47884ADD182}
+		{C7FD8036-08AD-4220-9ACC-FAAA1BBDCB8F} = {F927C6E1-E9C9-4DAB-9BAC-E47884ADD182}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9D70F97F-7C65-4A5B-975F-D6A09A172A4E}
