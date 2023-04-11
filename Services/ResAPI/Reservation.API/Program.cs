@@ -14,6 +14,7 @@ namespace Reservation.API
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
+            builder.WebHost.UseUrls("http://*:7000");
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -23,7 +24,7 @@ namespace Reservation.API
                 app.UseSwaggerUI();
             }
 
-            app.UseHttpsRedirection();
+            //app.UseHttpsRedirection();
 
             app.UseAuthorization();
 
